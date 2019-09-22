@@ -4,7 +4,7 @@ require_relative "../lib/cruise_ship.rb"
 describe "#select_winner" do
   it "returns the name of the passenger who stays in suite a and whose name begins with the letter 'A'" do 
 
-    passengers = {
+    passengers = {#select_winner}
       suite_a: "Amanda Presley", 
       suite_b: "Seymour Hoffman", 
       suite_c: "Alfred Tennyson", 
